@@ -85,7 +85,27 @@ None
 # user_data = username + " " + password
 # print(user_data)
 
+# string Concatenation
+# print ('gagan' + ' ' +'multani')
 
+#data type conversion
+# print(type(str(100)))
+# print(type(int(str(100))))
 
+#Escape Sequence
+#Added \t for tab, \n for line change and \ for Escape ' in string
+#greet = "\t\tIt\'s my please to meet you.\n I hope you have a good day."
+# print(greet)
 
+#formatted String
+name = 'Gagan'
+age = 27
+# print('Hi ' + name + '!!\n' 'You are ' + str(age) +' year old.')
+#instead of using above method. we can use formatted string and this is a feature of python3
+# print(f'Hi {name} !! \n You are {age} year old.')
+# # or 
+# print ('Hi {} !! \n You are {} year old.'.format('Gagan','27'))
+#print ('Hi {} !! \n You are {} year old.'.format(name,age))
+# print ('Hi {1} !! \n You are {0} year old.'.format(name,age))
+# print ('Hi {name} !! \n You are {age} year old.'.format(name='Raavi',age='27'))
 
