@@ -72,7 +72,18 @@ None
 # some_value *= 2
 # print(some_value)
 
-
+#String Example
+# print(type('my name is Gagan'))
+# username = 'gagan'
+# password = 'python'
+# long_string = '''
+# WOW
+# o o
+#  --
+#  '''
+# print(long_string)
+# user_data = username + " " + password
+# print(user_data)
 
 
 
