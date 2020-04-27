@@ -165,7 +165,29 @@ matrix = [
   [7,8,9],
   [10,11,12]
   ]
-print(matrix[0][2])  
+print(matrix[0][2]) 
+
+#Methods for list: https://www.w3schools.com/python/python_ref_list.asp
+#adding
+# matrix.append(100)
+# matrix.insert(1,200)
+# matrix.extend([120,150])
+# print(matrix)
+
+# #removing
+# matrix.pop() #takes off the end of the list
+# matrix.pop(0)
+# matrix.clear()
+# print(matrix)
+
+#Search a list
+print(matrix.index([4,5,6]))
+print([4,5,6] in matrix) #search using python ketwork
+#https://www.w3schools.com/python/python_ref_keywords.asp
+
+
+
+
 
 
 
