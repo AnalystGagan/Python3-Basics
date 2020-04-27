@@ -135,8 +135,14 @@ None
 # print(bool(1))
 # print(bool('True'))
 
-#Simple program for Age Calculator
-birth_year = int(input('What year were you born: '))
-age = 2020 - birth_year
-print(f'your age is {age} years')
+# #Simple program for Age Calculator
+# birth_year = int(input('What year were you born: '))
+# age = 2020 - birth_year
+# print(f'your age is {age} years')
 
+# #Simple application for password check 
+# username = input('Username:')
+# password = input('Password:')
+# pass_len = len(password)
+# hidden_pass = '*' * pass_len
+# print(f'{username}, your password {hidden_pass} is {pass_len} character long')
