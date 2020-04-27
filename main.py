@@ -146,3 +146,16 @@ None
 # pass_len = len(password)
 # hidden_pass = '*' * pass_len
 # print(f'{username}, your password {hidden_pass} is {pass_len} character long')
+
+
+#List objects
+shopping_cart = [
+  'apple',
+ 'oatmeal',
+ 'garlic',
+ 'toilet papper'
+]
+shopping_cart[0] = 'laptop' #lists are mutable
+print(shopping_cart[::1])
+
+
