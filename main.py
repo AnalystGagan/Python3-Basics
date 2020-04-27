@@ -98,8 +98,8 @@ None
 # print(greet)
 
 #formatted String
-name = 'Gagan'
-age = 27
+# name = 'Gagan'
+# age = 27
 # print('Hi ' + name + '!!\n' 'You are ' + str(age) +' year old.')
 #instead of using above method. we can use formatted string and this is a feature of python3
 # print(f'Hi {name} !! \n You are {age} year old.')
@@ -109,3 +109,22 @@ age = 27
 # print ('Hi {1} !! \n You are {0} year old.'.format(name,age))
 # print ('Hi {name} !! \n You are {age} year old.'.format(name='Raavi',age='27'))
 
+#String Indexing
+# selfish = '01234567'
+# #[start:stop:stepover]
+# print(selfish[1])
+# print(selfish[1:5])
+# print(selfish[-1])
+# print(selfish[::2])
+# print(selfish[::-1])
+
+
+#Methods : methods are set of function that can be only used on specific object . example - .formate() on string object
+# https://www.w3schools.com/python/python_ref_string.asp
+name = 'gagandeep singh multani'
+print(name.upper())
+print(name.capitalize())
+print(name.find('m'))
+print(name.replace('multani','Mmultani'))
+print (name)
+#In above print(name) Syntax string has not changed becaseu strings are immutable object
