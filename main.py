@@ -148,14 +148,24 @@ None
 # print(f'{username}, your password {hidden_pass} is {pass_len} character long')
 
 
-#List objects
-shopping_cart = [
-  'apple',
- 'oatmeal',
- 'garlic',
- 'toilet papper'
-]
-shopping_cart[0] = 'laptop' #lists are mutable
-print(shopping_cart[::1])
+# #List objects
+# shopping_cart = [
+#   'apple',
+#  'oatmeal',
+#  'garlic',
+#  'toilet papper'
+# ]
+# shopping_cart[0] = 'laptop' #lists are mutable
+# print(shopping_cart[::1])
+
+#Matrix/ 2D list
+matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [10,11,12]
+  ]
+print(matrix[0][2])  
+
 
 
