@@ -180,12 +180,23 @@ print(matrix[0][2])
 # matrix.clear()
 # print(matrix)
 
-#Search a list
-print(matrix.index([4,5,6]))
-print([4,5,6] in matrix) #search using python ketwork
-#https://www.w3schools.com/python/python_ref_keywords.asp
+# #Search a list
+# print(matrix.index([4,5,6]))
+# print([4,5,6] in matrix) #search using python ketwork
+# #https://www.w3schools.com/python/python_ref_keywords.asp
 
+# # list creation
+# ls = list(range(101))
+# print(ls)
 
+# #create string from list
+# line = ' '.join(['hi','my','name','is','gagan'])
+# print(line)
+
+#unpack list
+a,b,c,* other,d =[1,2,3,4,5,6,7,8,9,10]
+print(a)
+print(other)
 
 
 
