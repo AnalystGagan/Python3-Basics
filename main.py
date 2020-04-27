@@ -121,10 +121,22 @@ None
 
 #Methods : methods are set of function that can be only used on specific object . example - .formate() on string object
 # https://www.w3schools.com/python/python_ref_string.asp
-name = 'gagandeep singh multani'
-print(name.upper())
-print(name.capitalize())
-print(name.find('m'))
-print(name.replace('multani','Mmultani'))
-print (name)
-#In above print(name) Syntax string has not changed becaseu strings are immutable object
+# name = 'gagandeep singh multani'
+# print(name.upper())
+# print(name.capitalize())
+# print(name.find('m'))
+# print(name.replace('multani','Mmultani'))
+# print (name)
+# #In above print(name) Syntax string has not changed becaseu strings are immutable object
+
+
+# #Booleans Example
+# print(bool(0))
+# print(bool(1))
+# print(bool('True'))
+
+#Simple program for Age Calculator
+birth_year = int(input('What year were you born: '))
+age = 2020 - birth_year
+print(f'your age is {age} years')
+
