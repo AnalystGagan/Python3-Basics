@@ -225,7 +225,29 @@ None
 # print(tup_1[1])
 
 #set
-set_1 = {1,2,3,4,4,4,5,5,5,8}
-print(set_1) #notice it returns only unique values in set
+#  set_1 = {1,2,3,4,4,4,5,5,5,8}
+# print(set_1) #notice it returns only unique values in set
 #usecase- set of emails to make sure no one is sending email address again and again 
 #methods in set - https://www.w3schools.com/python/python_ref_set.asp
+
+# #condtional statements
+# is_old = True
+# has_licence = True
+
+# if is_old:
+#   print('you can drive')
+# else:
+#   print('you should wait few years to drive')
+
+# how_old = input( 'How old are you?')
+# has_licence = input('Do you have a license? punch-in 0 for No and 1 for Yes)')
+# how_old1 = int(how_old)
+# has_licence1 = int(has_licence)
+
+# if how_old1 > 18 and has_licence1 == 1:
+#   print('hurryyy! you can drive')
+# elif how_old1 > 18 and has_licence1 == 0: 
+#   print('Great you are old enough. go get a license!!')
+# else:
+#   print('you should wait few years to drive')
+
