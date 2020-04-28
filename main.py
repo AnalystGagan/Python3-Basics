@@ -219,3 +219,13 @@ None
 # #use get method to avoide errors in case key is not exist in dict, take a peak 
 # print(dict.get('age'))
 # print(dict.get('age',50)) #incase age doesn't exist use 50
+
+#Tuple- they are like immutable list
+# tup_1 = (1,2,3,4,5)
+# print(tup_1[1])
+
+#set
+set_1 = {1,2,3,4,4,4,5,5,5,8}
+print(set_1) #notice it returns only unique values in set
+#usecase- set of emails to make sure no one is sending email address again and again 
+#methods in set - https://www.w3schools.com/python/python_ref_set.asp
