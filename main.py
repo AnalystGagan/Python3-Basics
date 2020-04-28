@@ -159,13 +159,13 @@ None
 # print(shopping_cart[::1])
 
 #Matrix/ 2D list
-matrix = [
-  [1,2,3],
-  [4,5,6],
-  [7,8,9],
-  [10,11,12]
-  ]
-print(matrix[0][2]) 
+# matrix = [
+#   [1,2,3],
+#   [4,5,6],
+#   [7,8,9],
+#   [10,11,12]
+#   ]
+# print(matrix[0][2]) 
 
 #Methods for list: https://www.w3schools.com/python/python_ref_list.asp
 #adding
@@ -194,11 +194,28 @@ print(matrix[0][2])
 # print(line)
 
 #unpack list
-a,b,c,* other,d =[1,2,3,4,5,6,7,8,9,10]
-print(a)
-print(other)
+# a,b,c,* other,d =[1,2,3,4,5,6,7,8,9,10]
+# print(a)
+# print(other)
 
+# Dictionary is an unordered key value pair 
+# dict = {
+#   'a':1,
+#   'b':2
+# }
 
+# print(dict)
 
+# dict = {
+#   'a':[1,2,3,4],
+#   'b':'gagan',
+#   'c': True
+# }
 
+# print(dict['c'])
 
+# #Dict methods
+# # https://www.w3schools.com/python/python_ref_dictionary.asp
+# #use get method to avoide errors in case key is not exist in dict, take a peak 
+# print(dict.get('age'))
+# print(dict.get('age',50)) #incase age doesn't exist use 50
