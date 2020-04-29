@@ -251,3 +251,11 @@ None
 # else:
 #   print('you should wait few years to drive')
 
+#https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-how-is-it-different-from-true-and-false
+
+# #Ternary Operator
+# #condtion_if_true if condition else condition if else
+# #example
+# is_friend = True
+# can_message = 'message allowed' if is_friend else 'not allowed to message'
+# print(can_message)
