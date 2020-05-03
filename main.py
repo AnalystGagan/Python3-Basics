@@ -291,14 +291,15 @@ None
 # for item in (1,2,3,4,5,6):
 #   print(item)
 #for loop can iterate on anything that has collection of items 
+#collection of items(iterable - list, tuple,dict, string, anything)
 
 # for item in [1,2,3,4,5,6]:
 #   print(item)
 # print('end')
 
-#Nested loop
-for item in [1,2,3,4,5,6]:
-  for x in ['a','b','c']:
-    print(item , x)
+# #Nested loop
+# for item in [1,2,3,4,5,6]:
+#   for x in ['a','b','c']:
+#     print(item , x)
 
     
