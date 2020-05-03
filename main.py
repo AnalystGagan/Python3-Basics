@@ -291,7 +291,8 @@ None
 # for item in (1,2,3,4,5,6):
 #   print(item)
 #for loop can iterate on anything that has collection of items 
-#collection of items(iterable - list, tuple,dict, string, anything)
+#collection of items(iterable) - list, tuple,dict, string, anything)
+# iterated - one by one check each item in the collection. 
 
 # for item in [1,2,3,4,5,6]:
 #   print(item)
@@ -302,4 +303,38 @@ None
 #   for x in ['a','b','c']:
 #     print(item , x)
 
-    
+# #iterate over dict
+# user = {
+#   'name':'gagan',
+#   'age' : 27,
+#   'can_swim':False
+# }
+# for item in user:
+#   print(item)
+
+#three ways to loop over keys and values of dict 
+# user = {
+#   'name':'gagan',
+#   'age' : 27,
+#   'can_swim':False
+# }
+# for x in user.items():
+#   print(x)
+
+# user = {
+#   'name':'gagan',
+#   'age' : 27,
+#   'can_swim':False
+# }
+# for x in user.values():
+#   print(x)
+
+# user = {
+#   'name':'gagan',
+#   'age' : 27,
+#   'can_swim':False
+# }
+# for x in user.keys():
+#   print(x)
+
+
