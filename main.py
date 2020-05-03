@@ -459,3 +459,33 @@ None
 
 
 #return 
+# #our function either modify (as above) somethig or return somthing 
+# def sum(num1,num2):
+#   return num1+num2
+
+# print(sum(2,3))
+#thumb rule - 
+#functions should do one thing really well 
+#functions should return somthing
+
+#  def sum(num1,num2):
+#   def another_function(n1,n2):
+#     return n1 + n2
+#   return another_function(num1,num2)
+
+# total = sum(5,10)
+# print(total)
+
+# #adding docstring inside the function
+# def some_fun(value):
+#   '''
+#   Info:this function retuns the value
+#   '''
+#   print(value)
+
+# some_fun(1)
+
+# # help(some_fun)
+# print(some_fun.__doc__)
+
+
