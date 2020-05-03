@@ -445,3 +445,17 @@ None
 
 # #Arguments/call/invoke the function- these are actual given vaules
 # say_hello('gagan',' 😘')
+
+# #positional vs keyword argument
+# say_hello('😘', 'gagan')# postional
+# say_hello(emoji='😘', name='gagan')
+
+# #default parameter 
+# def say_hello(name='Raavi', emoji='😍'):
+#   print(f'Helloo {name}{emoji}')
+
+# say_hello() #run with default value
+# say_hello('gagan','😘') #assign values
+
+
+#return 
