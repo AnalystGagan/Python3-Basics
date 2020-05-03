@@ -439,3 +439,9 @@ None
 # merry_christmas()
 # merry_christmas()
   
+# #Parameters
+# def say_hello(name, emoji):
+#   print(f'Helloo {name}{emoji}')
+
+# #Arguments/call/invoke the function- these are actual given vaules
+# say_hello('gagan',' 😘')
