@@ -390,22 +390,52 @@ None
 #use while loop when you are not sure for how long you need to iterate. 
 # break, continue and pass on loops
 
-#My first GUI!
-#Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
-picture = [
-  [0,0,0,1,0,0,0],
-  [0,0,1,1,1,0,0],
-  [0,1,1,1,1,1,0],
-  [1,1,1,1,1,1,1],
-  [0,0,0,1,0,0,0],
-  [0,0,0,1,0,0,0]
-]
+# #My first GUI!
+# #Display the image below to the right hand side where the 0 is going to be ' ', and the 1 is going to be '*'. This will reveal an image!
+# picture = [
+#   [0,0,0,1,0,0,0],
+#   [0,0,1,1,1,0,0],
+#   [0,1,1,1,1,1,0],
+#   [1,1,1,1,1,1,1],
+#   [0,0,0,1,0,0,0],
+#   [0,0,0,1,0,0,0]
+# ]
 
-for row in picture:
-  for pix in row:
-    if (pix == 1):
-      print('*', end = "")
-    else:
-      print(' ', end = "")
-  print('')
+# for row in picture:
+#   for pix in row:
+#     if (pix == 1):
+#       print('*', end = "")
+#     else:
+#       print(' ', end = "")
+#   print('')
     
+# #user define functions in python
+#def user_gagan():
+#   print('hellooo gagan') #it is stored in the memory and can be called by user_gagan()
+
+# user_gagan()
+
+# #create a function from GUI code that I have wrote before. by creating function, it can be used as many time as you want.
+# def merry_christmas():
+#   picture = [
+#      [0,0,0,1,0,0,0],
+#      [0,0,1,1,1,0,0],
+#      [0,1,1,1,1,1,0],
+#      [1,1,1,1,1,1,1],
+#      [0,0,0,1,0,0,0],
+#      [0,0,0,1,0,0,0]
+#    ]
+
+#   for row in picture:
+#    for pix in row:
+#     if (pix == 1):
+#       print('*', end = "")
+#     else:
+#       print(' ', end = "")
+#    print('')
+
+# merry_christmas()
+# merry_christmas()
+# merry_christmas()
+# merry_christmas()
+  
