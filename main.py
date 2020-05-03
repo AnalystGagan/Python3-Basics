@@ -363,3 +363,29 @@ None
 # for i,char in enumerate(list(range(100))):
 #   if char == 50:
 #     print(f'index of 50 is: {i}')
+
+
+# #while loop
+# while condtion:
+#   do somthing
+# i = 0
+# while i<50:
+#   print(i)
+#   break
+
+# i = 0
+# while i<50:
+#   print(i)
+#   i = i + 1
+
+
+# i = 0
+# while i<50:
+#   print(i)
+#   i = i + 1
+# else:
+#   print('Done with all the work!!')
+
+#deciding between for and while loop
+#use while loop when you are not sure for how long you need to iterate. 
+# break, continue and pass on loops
