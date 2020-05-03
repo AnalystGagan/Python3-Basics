@@ -337,4 +337,17 @@ None
 # for x in user.keys():
 #   print(x)
 
+# user = {
+#   'name':'gagan',
+#   'age' : 27,
+#   'can_swim':False
+# }
+# for key,value in user.items():
+#   print(f'{key}: {value}')
 
+# #Counter
+# mylist = [1,2,3,4,5,6,7,8,9]
+# counter = 0
+# for item in mylist:
+#   counter = counter + item
+# print(counter)
