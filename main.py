@@ -351,3 +351,15 @@ None
 # for item in mylist:
 #   counter = counter + item
 # print(counter)
+
+# #when looping in python -range function is really hlelpfull 
+# range(0,100)
+# range(0,100,2) - step over by 2
+# #loop over range
+# for item in range(0,100):
+#   print(item)
+
+# # looping over enumerate function
+# for i,char in enumerate(list(range(100))):
+#   if char == 50:
+#     print(f'index of 50 is: {i}')
