@@ -259,3 +259,46 @@ None
 # is_friend = True
 # can_message = 'message allowed' if is_friend else 'not allowed to message'
 # print(can_message)
+
+# #short circuting using logical operators
+# print(True == True)
+# print ('a' >'b')
+# # <, >, ==,  >=,  <=, != , and, or, not
+
+# #some more example of condtional statement
+# is_magican = False
+# is_expert = True
+
+# if is_magican and is_expert:
+#   print('you are a master magician')
+# elif is_magican and not(is_expert):
+#   print ('At least you are getting there')
+# else:
+#   print('you need magic power')
+
+#Loops
+# for created_variable in 'iterable':
+#example 
+#  for item in "gagandeep":
+#   print(item)
+
+# for item in [1,2,3,4,5,6]:
+#   print(item)
+
+#  for item in {1,2,3,4,5,6}:
+#   print(item)
+
+# for item in (1,2,3,4,5,6):
+#   print(item)
+#for loop can iterate on anything that has collection of items 
+
+# for item in [1,2,3,4,5,6]:
+#   print(item)
+# print('end')
+
+#Nested loop
+for item in [1,2,3,4,5,6]:
+  for x in ['a','b','c']:
+    print(item , x)
+
+    
