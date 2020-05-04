@@ -488,4 +488,6 @@ None
 # # help(some_fun)
 # print(some_fun.__doc__)
 
+#scope - what varible do I have access to ?
+#local, parent local and global varible 
 
