@@ -1,2 +1,0 @@
-#OOP
-help(class)

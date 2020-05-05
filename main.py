@@ -491,3 +491,12 @@ None
 #scope - what varible do I have access to ?
 #local, parent local and global varible 
 
+class BigObject:
+  pass
+
+#Create an object
+obj1 = BigObject()
+#Class creates objects 
+#class instantiate(creates) an instance(object)
+
+print(type(obj1))
