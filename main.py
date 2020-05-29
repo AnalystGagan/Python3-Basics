@@ -12,7 +12,7 @@
 # set
 # dict
 
-None
+# None
 
 # Above are the fundamental data types. however, we can create a custom datatypes called 'Class'
 #Class --> Custom type
