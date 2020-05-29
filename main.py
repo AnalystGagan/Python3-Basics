@@ -2,15 +2,15 @@
 # print('Helllllooooooo ' + name)
 
 #Fundamental Data Types
-int
-float
-complex
-bool
-str
-list
-tuple
-set
-dict
+# int
+# float
+# complex
+# bool
+# str
+# list
+# tuple
+# set
+# dict
 
 None
 
